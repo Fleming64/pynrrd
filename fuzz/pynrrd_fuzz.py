@@ -9,7 +9,7 @@ with atheris.instrument_imports():
 
 @atheris.instrument_func
 def TestOneInput(data):
-   nrrd.read(io.BytesIO(data))
+   nrrd.read(data)
     
 
 
