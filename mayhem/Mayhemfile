@@ -1,0 +1,6 @@
+project: pynrrd
+target: pynrrd_fuzz
+
+cmds:
+    - cmd: /pynrrd/fuzz/pynrrd_fuzz.py
+      libfuzzer: true
